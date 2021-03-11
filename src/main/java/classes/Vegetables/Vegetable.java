@@ -5,9 +5,9 @@ public class Vegetable {
     private int seed;
     private String type;
 
-    public void vegetable(int unSeed, String unType) {
-        this.seed = unSeed;
-        this.type = unType.toLowerCase();
+    public Vegetable(){
+        this.seed = 0;
+        this.type = "none";
     }
 
     public void grow(int number) {

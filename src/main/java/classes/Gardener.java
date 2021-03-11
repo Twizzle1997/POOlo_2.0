@@ -60,7 +60,7 @@ public class Gardener {
 
     public void add(Garden cls_garden, Vegetable obj) throws Exception {
 
-        if (cls_garden.get_seed() + obj.get_seed() < cls_garden.get_maxCapacity()) {
+        if (cls_garden.get_seed() + obj.get_seed() <= cls_garden.get_maxCapacity()) {
             if (cls_garden.get_vegetables().containsKey(obj.get_type())) {
                 cls_garden.set_vegetables(obj.get_type(), cls_garden.get_vegetables().get(obj.get_type()) + obj.get_seed());
             } else {
