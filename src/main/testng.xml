@@ -1,0 +1,10 @@
+<suite name="SUITE TESTS PROJET POOLO 2.0">
+
+    <test name="Test">
+        <classes>
+            <class name="classes.GardenerTest"/>
+            <class name="classes.GardenTest"/>
+            <class name="classes.Vegetables.VegetableTest"/>
+        </classes>
+    </test>
+</suite>
