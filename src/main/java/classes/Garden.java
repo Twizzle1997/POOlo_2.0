@@ -9,15 +9,15 @@ public class Garden {
     private Hashtable<String, Integer> vegetables;
     private List<String> list_of_vegetables = Arrays.asList("tomato", "carrot", "pickle");
 
-    public Garden(int maxCapacity) {
+    public Garden() {
         this.seed = 0;
-        this.maxCapacity = maxCapacity;
+        this.maxCapacity = 20;
         this.vegetables = new Hashtable<String, Integer>();
     }
 
-    public Garden(){
+    public Garden(int maxCapacity) {
         this.seed = 0;
-        this.maxCapacity = 20;
+        this.maxCapacity = maxCapacity;
         this.vegetables = new Hashtable<String, Integer>();
     }
 
