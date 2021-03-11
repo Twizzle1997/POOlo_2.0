@@ -19,7 +19,7 @@ public class GardenerTest {
         Vegetable test_tomato2;
         Vegetable test_tomato3;
 
-        // Constructor 1
+        // Signature 1
         test_tomato = jojo.plant_vegetable("tomato");
         test_carrot = jojo.plant_vegetable("carrot");
         test_pickle = jojo.plant_vegetable("pickle");
@@ -31,7 +31,7 @@ public class GardenerTest {
         assertEquals(test_pickle.get_seed(), 0);
         assertEquals(test_pickle.get_type(), "pickle");
 
-        // Constructor 2
+        // Signature 2
         test_tomato3 = jojo.plant_vegetable("tomato", 3);
 
         assertEquals(test_tomato3.get_seed(), 3);

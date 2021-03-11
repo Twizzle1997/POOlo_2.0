@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 public class GardenTest {
 
     @Test
-    public void constructorTest(){
+    public void constructorTest() {
         // Constructor 1
         Garden garden = new Garden();
 

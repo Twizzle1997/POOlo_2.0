@@ -5,8 +5,4 @@ public class Pickle extends Vegetable {
         this.set_seed(0);
         this.set_type("pickle");
     }
-
-    public void grow(int number) {
-        this.set_seed(this.get_seed() + number);
-    }
 }

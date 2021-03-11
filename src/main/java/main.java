@@ -2,7 +2,7 @@ import classes.*;
 import classes.Vegetables.*;
 
 public class main {
-    public static void main (String[] args) throws Exception {
+    public static void main(String[] args) throws Exception {
         Gardener Thib = new Gardener();
         Garden Eden = new Garden();
 

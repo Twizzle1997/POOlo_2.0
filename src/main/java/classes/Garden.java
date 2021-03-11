@@ -5,20 +5,20 @@ import java.util.*;
 public class Garden {
 
     private int seed;
-    private int maxCapacity;
-    private Hashtable<String, Integer> vegetables;
-    private List<String> list_of_vegetables = Arrays.asList("tomato", "carrot", "pickle");
+    private final int maxCapacity;
+    private final Hashtable<String, Integer> vegetables;
+    private final List<String> list_of_vegetables = Arrays.asList("tomato", "carrot", "pickle");
 
     public Garden() {
         this.seed = 0;
         this.maxCapacity = 20;
-        this.vegetables = new Hashtable<String, Integer>();
+        this.vegetables = new Hashtable<>();
     }
 
     public Garden(int maxCapacity) {
         this.seed = 0;
         this.maxCapacity = maxCapacity;
-        this.vegetables = new Hashtable<String, Integer>();
+        this.vegetables = new Hashtable<>();
     }
 
     public int get_number_type() {
@@ -46,7 +46,7 @@ public class Garden {
         if (list_of_vegetables.contains(key)) {
             this.vegetables.put(key, value);
         } else {
-            throw new Exception("Cet élément n'existe pas. Légumes dispnnibles : " + list_of_vegetables);
+            throw new Exception("Cet élément n'existe pas. Légumes disponibles : " + list_of_vegetables);
         }
     }
 

@@ -5,12 +5,13 @@ public class Vegetable {
     private int seed;
     private String type;
 
-    public Vegetable(){
+    public Vegetable() {
         this.seed = 0;
         this.type = "none";
     }
 
     public void grow(int number) {
+        this.set_seed(this.get_seed() + number);
     }
 
     public int get_seed() {
