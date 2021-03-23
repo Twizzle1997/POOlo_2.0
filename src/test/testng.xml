@@ -1,8 +1,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="SUITE TESTS PROJET POOLO 2.0" verbose ="5">
+<suite name="SUITE_TESTS_PROJECT">
 
-    <test name="Test">
+    <test name="TESTS POOLO LE JARDINIER" thread-count="5" verbose="5">
         <classes>
             <class name="classes.GardenerTest"/>
             <class name="classes.GardenTest"/>
@@ -10,5 +10,3 @@
         </classes>
     </test>
 </suite>
-
-
