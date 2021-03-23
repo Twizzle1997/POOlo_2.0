@@ -49,6 +49,7 @@ Get a local copy up and running following these steps.
     ```
 
 ### Settings
+* [src > test > java > classes](https://github.com/Twizzle1997/POOlo_2.0/blob/main/src/test/java/classes) contains the java unit test classes.   
 * [src > test > testng.xml](https://github.com/Twizzle1997/POOlo_2.0/blob/main/src/test/testng.xml) to edit the test suite.   
 * [pom.xml > maven-surefire-plugin](https://github.com/Twizzle1997/POOlo_2.0/blob/main/pom.xml) :  
    - ```<suiteXmlFiles>``` to add test suites ;  
