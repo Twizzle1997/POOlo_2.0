@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-12T15:48:08Z" name="Command line suite" finished-at="2021-03-12T15:48:08Z" duration-ms="176">
+    <groups>
+    </groups>
+    <test started-at="2021-03-12T15:48:08Z" name="Command line test" finished-at="2021-03-12T15:48:08Z" duration-ms="176">
+      <class name="classes.Vegetables.VegetableTest">
+        <test-method signature="testConstructor()[pri:0, instance:classes.Vegetables.VegetableTest@769e7ee8]" started-at="2021-03-12T15:48:08Z" name="testConstructor" finished-at="2021-03-12T15:48:08Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConstructor -->
+        <test-method signature="testGrow()[pri:0, instance:classes.Vegetables.VegetableTest@769e7ee8]" started-at="2021-03-12T15:48:08Z" name="testGrow" finished-at="2021-03-12T15:48:08Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGrow -->
+      </class> <!-- classes.Vegetables.VegetableTest -->
+      <class name="classes.GardenerTest">
+        <test-method signature="testAdd()[pri:0, instance:classes.GardenerTest@419c5f1a]" started-at="2021-03-12T15:48:08Z" name="testAdd" finished-at="2021-03-12T15:48:08Z" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd -->
+        <test-method signature="testPlant_vegetable()[pri:0, instance:classes.GardenerTest@419c5f1a]" started-at="2021-03-12T15:48:08Z" name="testPlant_vegetable" finished-at="2021-03-12T15:48:08Z" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPlant_vegetable -->
+      </class> <!-- classes.GardenerTest -->
+      <class name="classes.GardenTest">
+        <test-method signature="constructorTest()[pri:0, instance:classes.GardenTest@12b0404f]" started-at="2021-03-12T15:48:08Z" name="constructorTest" finished-at="2021-03-12T15:48:08Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- constructorTest -->
+        <test-method signature="set_vegetablesTest()[pri:0, instance:classes.GardenTest@12b0404f]" started-at="2021-03-12T15:48:08Z" name="set_vegetablesTest" finished-at="2021-03-12T15:48:08Z" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_vegetablesTest -->
+      </class> <!-- classes.GardenTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

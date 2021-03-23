@@ -1,0 +1,37 @@
+<!-- Création d'un projet Ant -->
+<project name="PROJET POOLO 2.0" basedir=".">
+
+    <!-- Spécification de propriétés utilisées par la suite -->
+    <property name="bin.dir" value="bin/"/>
+    <property name="lib.dir" value="lib/"/>
+    <property name="src.dir" value="src/"/>
+    <property name="src.dir.app" value="src/"/>
+
+    <!-- Définition d'un path -->
+    <path id="class.path">
+        <fileset dir="${lib.dir}">
+            <!-- Ajout des jar de TestNG au path pour la suite de l'exécution -->
+            <include name="*.jar" />
+        </fileset>
+        <path location="${bin.dir}"/>>
+    </path>
+</project>
+
+
+        <!-- Création d'une tâche Ant -->
+<target name="base">
+
+<!-- Déclaration que c'est une tâche pour TestNG -->
+<taskdef name="testng" classname="org.testng.TestNGAntTask" classpathref="class.path"/>
+
+<!-- Utilisation du path défini précédemment -->
+<!-- On continue l'exécution malgré un test échoué -->
+<testng classpathref="class.path" haltOnfailure="false">
+
+    <!-- Spécification de la localisation du fichier testng.xml à exécuter -->
+    <xmlfileset dir="${src.dir.app}/base" includes="testng.xml"/>
+
+    <!-- Spécification d'un argument à la JVM : activation des annotations -->
+    <jvmarg value="-ea"/>
+</testng>
+</target>
